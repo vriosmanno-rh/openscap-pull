@@ -2,7 +2,7 @@ galaxy_info:
   author: Red Hat Consulting
   description: Role for Red Hat Openscap OVAL definitions
   company: Red Hat, Inc.
-  # issue_tracker_url: http://example.com/issue/tracker
+  issue_tracker_url: https://github.com/vriosmanno-rh/openscap-pull/issues
   license: license (GPL-2.0-or-later)
   min_ansible_version: 2.4
   platforms:

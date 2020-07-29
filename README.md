@@ -38,4 +38,4 @@ Examples
 License
 -------
 
-GPLv2
+GPLv3
