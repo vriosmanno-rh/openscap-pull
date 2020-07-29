@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Red Hat Consulting
+  description: Role for Red Hat Openscap OVAL definitions
+  company: Red Hat, Inc.
+  # issue_tracker_url: http://example.com/issue/tracker
+  license: license (GPL-2.0-or-later)
+  min_ansible_version: 2.4
+  platforms:
+  - name: EL
+    versions:
+      - 7
+  galaxy_tags:
+    - openscap
+    - openshift
+dependencies: []

@@ -1,0 +1,15 @@
+---
+# tasks file for openscap-pull
+- name: Create openscap directory
+  file:
+    mode: '0755'
+    path: "{{ content_sync_path }}/OCP/openscap"
+    state: directory
+
+- name: Download OpenSCAP database
+  get_url:
+    url: "{{ item }}"
+    dest: "{{ content_sync_path }}/OCP/openscap"
+    mode: '0440'
+  with_items:
+    - "{{ openscap_urls }}"

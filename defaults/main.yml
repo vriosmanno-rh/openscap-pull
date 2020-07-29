@@ -1,0 +1,5 @@
+---
+# defaults file for openscap-pull
+openscap_urls:
+  - https://www.redhat.com/security/data/oval/rhsa.tar.bz2
+  - https://www.redhat.com/security/data/oval/com.redhat.rhsa-all.xml.bz2
