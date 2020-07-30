@@ -10,6 +10,7 @@ Requirements
 
 Role Variables
 --------------
+--------------
 
 | Parameter | Type | Required |  Default Value | Comments |
 | --------- | ---- | -------- | -------------- | -------- |
@@ -22,17 +23,25 @@ Examples
 ### Running with defaults
 ```yaml
 - name: openscap-pull example
-  role: openscap-pull
+  hosts: localhost
+  roles:
+    - role: openscap-pull
+      tags:
+        - openscap-db
 ```
 
 ### Running with different opencap_urls
 ```yaml
 - name: openscap-pull example with different openscap_urls
-  role: openscap-pull
-  vars:
-    openscap_urls:
-      - https://www.redhat.com/security/data/oval/rhsa.tar.bz2 # This is the default
-      - https://www.redhat.com/security/data/oval/com.redhat.rhsa-all.xml.bz2 # This is the default
+  hosts: localhost
+  roles:
+    - role: openscap-pull
+      tags:
+        - openscap-db
+      vars:
+        openscap_urls:
+          - https://www.redhat.com/security/data/oval/rhsa.tar.bz2 # This is the default
+          - https://www.redhat.com/security/data/oval/com.redhat.rhsa-all.xml.bz2 # This is the default
 ```
 
 License
