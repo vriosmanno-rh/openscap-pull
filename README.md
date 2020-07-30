@@ -39,6 +39,7 @@ Examples
       tags:
         - openscap-db
       vars:
+        content_sync_path: /data/sync
         openscap_urls:
           - https://www.redhat.com/security/data/oval/rhsa.tar.bz2 # This is the default
           - https://www.redhat.com/security/data/oval/com.redhat.rhsa-all.xml.bz2 # This is the default
