@@ -10,7 +10,6 @@ Requirements
 
 Role Variables
 --------------
---------------
 
 | Parameter | Type | Required |  Default Value | Comments |
 | --------- | ---- | -------- | -------------- | -------- |
