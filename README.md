@@ -14,7 +14,7 @@ Role Variables
 
 | Parameter | Type | Required |  Default Value | Comments |
 | --------- | ---- | -------- | -------------- | -------- |
-| **content_sync_path** | string | yes | *undefined* | The destination path for the openscap OVAL definitions |
+| **content_sync_path** | string | yes | `/data` | The destination path for the openscap OVAL definitions |
 | **openscap_urls** | list | yes | *rhsa.tar.bz2<br />com.redhat.rhsa-all.xml.bz2* | The URLs to download for the openscap OVAL definitions |
 
 Examples
